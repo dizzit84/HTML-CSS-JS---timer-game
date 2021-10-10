@@ -1,0 +1,104 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-11-26, 23:39:41
+    Author     : E530
+*/
+
+body
+{
+    background-color: black;
+    color: #EEEEEE;
+}
+#pojemnik_slajderow
+{
+width: 1400px;
+margin-left: auto;
+margin-right: auto;
+background-color: black;
+color: white;   
+}
+#slajder
+{
+min-height: 400px;
+float: left;
+width: 700px;
+text-align: center;
+}
+#slajder_big
+{
+min-height: 400px;
+float: left;
+width: 700px;
+text-align: center;
+}
+
+
+#pojemnik
+{
+width: 900px;
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+background-color: black;
+color: white;
+font-family: 'Cousine', monospace;
+border: 2px solid #EEEEEE;
+}
+#plansza
+{
+    width: 900px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 48px;
+    
+    
+}
+#szubienica
+{
+    float: left;
+    width: 450px;
+    text-align: center;
+    min-height: 280px;
+}
+#alfabet
+{
+    float:left;
+    width: 450px;
+    text-align: center;
+    min-height: 280px;
+}
+.litera
+{
+width: 30px;
+height: 30px;
+text-align: center;
+padding: 5px;
+margin: 5px;
+border: 2px solid grey;
+border-radius: 15px;
+float: left;
+cursor: pointer;
+font-size:30px;
+color: grey;
+}
+.litera:hover
+{   
+    background-color: #222222;
+    color: white;
+    border: 2px solid white;    
+}
+.reset
+{
+color: green;
+cursor: pointer;
+font-size: 48px;
+}
+.reset:hover
+{
+color: white;    
+}
